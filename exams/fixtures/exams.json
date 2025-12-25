@@ -1,0 +1,15 @@
+[
+  {
+    "model": "exams.exam",
+    "pk": 1,
+    "fields": {
+      "title": "Sample Exam 1",
+      "description": "This is a sample exam.",
+      "date": "2023-01-01",
+      "duration": 180,
+      "is_active": true,
+      "created": "2023-01-01T00:00:00Z",
+      "updated": "2023-01-01T00:00:00Z"
+    }
+  }
+]
