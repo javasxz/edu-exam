@@ -10,7 +10,23 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
+import environ
+
 from pathlib import Path
+
+
+env = environ.Env(
+    DEBUG=(str, False),
+    ALLOWED_HOSTS=(list, []),
+    DB_NAME=(str, ""),
+    DB_USER=(str, ""),
+    DB_PASSWORD=(str, ""),
+    DB_HOST=(str, ""),
+    PAGE_SIZE=(int, 20)
+)
+
+environ.Env.read_env()
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -37,6 +53,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework',
+    'rest_framework.authtoken',
+    'drf_spectacular',
+    'django_filters',
+
+    'users',
+    'exams'
 ]
 
 MIDDLEWARE = [
@@ -79,6 +103,8 @@ DATABASES = {
     }
 }
 
+AUTH_USER_MODEL = "users.User"
+
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
@@ -115,3 +141,31 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+
+# Rest-framework
+# https://www.django-rest-framework.org/api-guide/settings/
+
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.BasicAuthentication",
+        "rest_framework.authentication.TokenAuthentication",
+    ],
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.IsAuthenticated",
+    ],
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    "DEFAULT_RENDERER_CLASSES": [
+        "common.renderers.JSONRenderer",
+        "rest_framework.renderers.BrowsableAPIRenderer",
+        "rest_framework.renderers.AdminRenderer",
+    ],
+    "EXCEPTION_HANDLER": "common.exceptions.handler",
+    "DEFAULT_FILTER_BACKENDS": [
+        "django_filters.rest_framework.DjangoFilterBackend",
+    ],
+    "DEFAULT_PAGINATION_CLASS": "common.pagination.PageNumberPagination",
+    "PAGE_SIZE": env("PAGE_SIZE"),
+    "DATE_INPUT_FORMATS": ["%d/%m/%Y"],
+    "DATE_FORMAT": "%d/%m/%Y",
+}
