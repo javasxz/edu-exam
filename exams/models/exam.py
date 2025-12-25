@@ -1,4 +1,6 @@
 from django.db import models
+from datetime import timedelta
+from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 
 from common.models import TimeStambedModel
@@ -9,6 +11,7 @@ class Exam(TimeStambedModel):
     description = models.TextField()
     date = models.DateField()
     duration = models.PositiveIntegerField(help_text="Duration in minutes")
+    extra_time = models.PositiveIntegerField(default=0, help_text="Extra time in minutes")
     is_active = models.BooleanField(default=True)
 
     class Meta:
@@ -18,6 +21,10 @@ class Exam(TimeStambedModel):
     def __str__(self):
         return self.title
 
+    def is_exam_ended(self, start_time):
+        total_duration = self.duration + self.extra_time
+        end_time = start_time + timedelta(minutes=total_duration)
+        return timezone.now() > end_time
 
 class Question(TimeStambedModel):
     exam = models.ForeignKey(Exam, related_name='questions', on_delete=models.CASCADE)

@@ -7,7 +7,7 @@ class UserManager(BaseUserManager):
 
     def _create_user(self, email, password, **extra_fields):
         """
-        Create and save a user with the given phone number and password.
+        Create and save a user with the given email and password.
         """
         user = self.model(email=email, **extra_fields)
         user.set_password(password)
@@ -30,4 +30,4 @@ class UserManager(BaseUserManager):
         return self._create_user(email, password, **extra_fields)
 
     def get_by_natural_key(self, login_field):
-        return self.get(Q(email=login_field) | Q(phone_number=login_field))
+        return self.get(Q(email=login_field))

@@ -4,15 +4,14 @@ from users.models import User
 
 
 class UserMeSerializer(serializers.ModelSerializer):
-    first_name = serializers.CharField(source='profile.first_name')
-    last_name = serializers.CharField(source='profile.last_name')
+    date_joined = serializers.DateTimeField(format="%d/%m/%Y %I:%M %p", read_only=True)
 
     class Meta:
         model = User
-        fields = [
+        fields = (
             "id",
+            'display_name',
             "email",
-            "first_name",
-            "last_name",
+            "phone_number",
             "date_joined",
-        ]
+        )

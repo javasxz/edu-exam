@@ -28,20 +28,3 @@ class QuestionListSerializer(serializers.ModelSerializer):
             "option_c",
             "option_d",
         ]
-
-
-class ExamDetailSerializer(serializers.ModelSerializer):
-    questions = QuestionListSerializer(many=True, read_only=True)
-
-    class Meta:
-        model = Exam
-        fields = [
-            "id",
-            "title",
-            "description",
-            "date",
-            "duration",
-            "questions",
-        ]
-
-

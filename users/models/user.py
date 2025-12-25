@@ -1,6 +1,3 @@
-import uuid
-import math
-
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
 from django.core.validators import FileExtensionValidator
 from django.db import models
@@ -15,12 +12,9 @@ from users.managers import UserManager
 
 class User(AbstractBaseUser, PermissionsMixin):
 
-    uid = models.CharField(unique=True, default=uuid.uuid1, max_length=50)
     display_name = models.CharField(max_length=30, null=True, blank=True)
     email = models.EmailField(
         unique=True,
-        blank=True,
-        null=True,
         error_messages={
             "unique": "This email address already exists. Please enter a new email address.",
         },
@@ -84,8 +78,6 @@ class UserProfile(TimeStambedModel):
         blank=True,
         null=True,
     )
-    first_name = models.CharField(max_length=20)
-    last_name = models.CharField(max_length=20, blank=True, null=True)
     gender = models.CharField(max_length=12, choices=GENDER_CHOICE, null=True, blank=True)
     dob = models.DateField(null=True, blank=True)
 
@@ -94,7 +86,4 @@ class UserProfile(TimeStambedModel):
         verbose_name_plural = _("User Profiles")
 
     def __str__(self):
-        return self.fullname()
-
-    def fullname(self):
-        return f"{self.first_name} {self.last_name}"
+        return self.user.display_name
