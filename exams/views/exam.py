@@ -115,8 +115,8 @@ class ExamViewSet(viewsets.ViewSet):
             user=request.user,
             exam=exam,
             is_submitted=True
-        )
-        if not attempt.exists():
+        ).last()
+        if not attempt:
             return Response({"detail": "No exam result found"}, status=404)
 
         serializer = ExamResultSerializer({
