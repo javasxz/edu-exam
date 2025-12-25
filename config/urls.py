@@ -20,11 +20,13 @@ from django.urls import include, path
 from common.routers import DefaultRouter
 from my_auth.urls import router as auth_router
 from users.urls import router as users_router
+from exams.urls import router as exams_router
 
 
 router_v1 = DefaultRouter()
 router_v1.register_nested("auth", auth_router)
-router_v1.register_nested("users", users_router)
+router_v1.extend(users_router)
+router_v1.extend(exams_router)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

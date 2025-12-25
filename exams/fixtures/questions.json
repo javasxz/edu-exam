@@ -1,0 +1,1372 @@
+[
+  {
+    "model": "exams.question",
+    "pk": 1,
+    "fields": {
+      "exam": 1,
+      "text": "What is the capital of India?",
+      "option_a": "Mumbai",
+      "option_b": "New Delhi",
+      "option_c": "Kolkata",
+      "option_d": "Chennai",
+      "correct_option": "B",
+      "created": "2025-01-01T10:00:00Z",
+      "updated": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 2,
+    "fields": {
+      "exam": 1,
+      "text": "Who is known as the Father of the Indian Constitution?",
+      "option_a": "Mahatma Gandhi",
+      "option_b": "Jawaharlal Nehru",
+      "option_c": "B. R. Ambedkar",
+      "option_d": "Rajendra Prasad",
+      "correct_option": "C",
+      "created": "2025-01-01T10:01:00Z",
+      "updated": "2025-01-01T10:01:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 3,
+    "fields": {
+      "exam": 1,
+      "text": "Which planet is known as the Red Planet?",
+      "option_a": "Earth",
+      "option_b": "Mars",
+      "option_c": "Jupiter",
+      "option_d": "Venus",
+      "correct_option": "B",
+      "created": "2025-01-01T10:02:00Z",
+      "updated": "2025-01-01T10:02:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 4,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the national animal of India?",
+      "option_a": "Elephant",
+      "option_b": "Tiger",
+      "option_c": "Lion",
+      "option_d": "Leopard",
+      "correct_option": "B",
+      "created": "2025-01-01T10:03:00Z",
+      "updated": "2025-01-01T10:03:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 5,
+    "fields": {
+      "exam": 1,
+      "text": "Which gas do plants absorb from the atmosphere?",
+      "option_a": "Oxygen",
+      "option_b": "Nitrogen",
+      "option_c": "Carbon Dioxide",
+      "option_d": "Hydrogen",
+      "correct_option": "C",
+      "created": "2025-01-01T10:04:00Z",
+      "updated": "2025-01-01T10:04:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 6,
+    "fields": {
+      "exam": 1,
+      "text": "Who wrote the national anthem of India?",
+      "option_a": "Rabindranath Tagore",
+      "option_b": "Bankim Chandra Chatterjee",
+      "option_c": "Sarojini Naidu",
+      "option_d": "Subramania Bharati",
+      "correct_option": "A",
+      "created": "2025-01-01T10:05:00Z",
+      "updated": "2025-01-01T10:05:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 7,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the largest ocean in the world?",
+      "option_a": "Indian Ocean",
+      "option_b": "Atlantic Ocean",
+      "option_c": "Arctic Ocean",
+      "option_d": "Pacific Ocean",
+      "correct_option": "D",
+      "created": "2025-01-01T10:06:00Z",
+      "updated": "2025-01-01T10:06:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 8,
+    "fields": {
+      "exam": 1,
+      "text": "Which country gifted the Statue of Liberty to the USA?",
+      "option_a": "Germany",
+      "option_b": "France",
+      "option_c": "England",
+      "option_d": "Canada",
+      "correct_option": "B",
+      "created": "2025-01-01T10:07:00Z",
+      "updated": "2025-01-01T10:07:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 9,
+    "fields": {
+      "exam": 1,
+      "text": "What is the boiling point of water?",
+      "option_a": "90°C",
+      "option_b": "80°C",
+      "option_c": "100°C",
+      "option_d": "120°C",
+      "correct_option": "C",
+      "created": "2025-01-01T10:08:00Z",
+      "updated": "2025-01-01T10:08:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 10,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the smallest continent?",
+      "option_a": "Europe",
+      "option_b": "Australia",
+      "option_c": "Antarctica",
+      "option_d": "South America",
+      "correct_option": "B",
+      "created": "2025-01-01T10:09:00Z",
+      "updated": "2025-01-01T10:09:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 11,
+    "fields": {
+      "exam": 1,
+      "text": "Who was the first Prime Minister of India?",
+      "option_a": "Rajendra Prasad",
+      "option_b": "Indira Gandhi",
+      "option_c": "Jawaharlal Nehru",
+      "option_d": "Lal Bahadur Shastri",
+      "correct_option": "C",
+      "created": "2025-01-01T10:10:00Z",
+      "updated": "2025-01-01T10:10:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 12,
+    "fields": {
+      "exam": 1,
+      "text": "Which organ purifies blood in the human body?",
+      "option_a": "Heart",
+      "option_b": "Lungs",
+      "option_c": "Kidney",
+      "option_d": "Liver",
+      "correct_option": "C",
+      "created": "2025-01-01T10:11:00Z",
+      "updated": "2025-01-01T10:11:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 13,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the longest river in the world?",
+      "option_a": "Amazon",
+      "option_b": "Ganga",
+      "option_c": "Nile",
+      "option_d": "Yangtze",
+      "correct_option": "C",
+      "created": "2025-01-01T10:12:00Z",
+      "updated": "2025-01-01T10:12:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 14,
+    "fields": {
+      "exam": 1,
+      "text": "Which metal is liquid at room temperature?",
+      "option_a": "Iron",
+      "option_b": "Mercury",
+      "option_c": "Copper",
+      "option_d": "Aluminium",
+      "correct_option": "B",
+      "created": "2025-01-01T10:13:00Z",
+      "updated": "2025-01-01T10:13:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 15,
+    "fields": {
+      "exam": 1,
+      "text": "Which day is celebrated as World Environment Day?",
+      "option_a": "June 5",
+      "option_b": "April 22",
+      "option_c": "March 21",
+      "option_d": "May 1",
+      "correct_option": "A",
+      "created": "2025-01-01T10:14:00Z",
+      "updated": "2025-01-01T10:14:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 16,
+    "fields": {
+      "exam": 1,
+      "text": "What is the chemical symbol of Oxygen?",
+      "option_a": "O",
+      "option_b": "Ox",
+      "option_c": "Og",
+      "option_d": "Om",
+      "correct_option": "A",
+      "created": "2025-01-01T10:15:00Z",
+      "updated": "2025-01-01T10:15:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 17,
+    "fields": {
+      "exam": 1,
+      "text": "Which vitamin is produced when skin is exposed to sunlight?",
+      "option_a": "Vitamin A",
+      "option_b": "Vitamin B",
+      "option_c": "Vitamin C",
+      "option_d": "Vitamin D",
+      "correct_option": "D",
+      "created": "2025-01-01T10:16:00Z",
+      "updated": "2025-01-01T10:16:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 18,
+    "fields": {
+      "exam": 1,
+      "text": "What part of the plant conducts photosynthesis?",
+      "option_a": "Root",
+      "option_b": "Stem",
+      "option_c": "Leaf",
+      "option_d": "Flower",
+      "correct_option": "C",
+      "created": "2025-01-01T10:17:00Z",
+      "updated": "2025-01-01T10:17:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 19,
+    "fields": {
+      "exam": 1,
+      "text": "Which gas is most abundant in the Earth's atmosphere?",
+      "option_a": "Oxygen",
+      "option_b": "Carbon Dioxide",
+      "option_c": "Nitrogen",
+      "option_d": "Hydrogen",
+      "correct_option": "C",
+      "created": "2025-01-01T10:18:00Z",
+      "updated": "2025-01-01T10:18:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 20,
+    "fields": {
+      "exam": 1,
+      "text": "Which planet has the most moons?",
+      "option_a": "Earth",
+      "option_b": "Mars",
+      "option_c": "Jupiter",
+      "option_d": "Saturn",
+      "correct_option": "D",
+      "created": "2025-01-01T10:19:00Z",
+      "updated": "2025-01-01T10:19:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 21,
+    "fields": {
+      "exam": 1,
+      "text": "Who discovered gravity?",
+      "option_a": "Albert Einstein",
+      "option_b": "Isaac Newton",
+      "option_c": "Galileo",
+      "option_d": "Nikola Tesla",
+      "correct_option": "B",
+      "created": "2025-01-01T10:20:00Z",
+      "updated": "2025-01-01T10:20:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 22,
+    "fields": {
+      "exam": 1,
+      "text": "Which Indian freedom fighter gave the slogan 'Inquilab Zindabad'?",
+      "option_a": "Bhagat Singh",
+      "option_b": "Subhash Chandra Bose",
+      "option_c": "Sardar Patel",
+      "option_d": "Lala Lajpat Rai",
+      "correct_option": "A",
+      "created": "2025-01-01T10:21:00Z",
+      "updated": "2025-01-01T10:21:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 23,
+    "fields": {
+      "exam": 1,
+      "text": "Which year did India gain independence?",
+      "option_a": "1945",
+      "option_b": "1946",
+      "option_c": "1947",
+      "option_d": "1950",
+      "correct_option": "C",
+      "created": "2025-01-01T10:22:00Z",
+      "updated": "2025-01-01T10:22:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 24,
+    "fields": {
+      "exam": 1,
+      "text": "Who was the first President of India?",
+      "option_a": "Jawaharlal Nehru",
+      "option_b": "Rajendra Prasad",
+      "option_c": "S. Radhakrishnan",
+      "option_d": "Indira Gandhi",
+      "correct_option": "B",
+      "created": "2025-01-01T10:23:00Z",
+      "updated": "2025-01-01T10:23:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 25,
+    "fields": {
+      "exam": 1,
+      "text": "The Taj Mahal is located in which city?",
+      "option_a": "Delhi",
+      "option_b": "Agra",
+      "option_c": "Jaipur",
+      "option_d": "Lucknow",
+      "correct_option": "B",
+      "created": "2025-01-01T10:24:00Z",
+      "updated": "2025-01-01T10:24:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 26,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the largest desert in the world?",
+      "option_a": "Sahara",
+      "option_b": "Gobi",
+      "option_c": "Thar",
+      "option_d": "Antarctic Desert",
+      "correct_option": "D",
+      "created": "2025-01-01T10:25:00Z",
+      "updated": "2025-01-01T10:25:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 27,
+    "fields": {
+      "exam": 1,
+      "text": "Which country has the highest population?",
+      "option_a": "USA",
+      "option_b": "India",
+      "option_c": "China",
+      "option_d": "Russia",
+      "correct_option": "B",
+      "created": "2025-01-01T10:26:00Z",
+      "updated": "2025-01-01T10:26:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 28,
+    "fields": {
+      "exam": 1,
+      "text": "Which continent has the most countries?",
+      "option_a": "Asia",
+      "option_b": "Europe",
+      "option_c": "Africa",
+      "option_d": "South America",
+      "correct_option": "C",
+      "created": "2025-01-01T10:27:00Z",
+      "updated": "2025-01-01T10:27:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 29,
+    "fields": {
+      "exam": 1,
+      "text": "Mount Everest is located in which mountain range?",
+      "option_a": "Andes",
+      "option_b": "Rockies",
+      "option_c": "Himalayas",
+      "option_d": "Alps",
+      "correct_option": "C",
+      "created": "2025-01-01T10:28:00Z",
+      "updated": "2025-01-01T10:28:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 30,
+    "fields": {
+      "exam": 1,
+      "text": "Which river is known as the Ganga of the South?",
+      "option_a": "Krishna",
+      "option_b": "Cauvery",
+      "option_c": "Godavari",
+      "option_d": "Kaveri",
+      "correct_option": "C",
+      "created": "2025-01-01T10:29:00Z",
+      "updated": "2025-01-01T10:29:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 31,
+    "fields": {
+      "exam": 1,
+      "text": "What does CPU stand for?",
+      "option_a": "Central Processing Unit",
+      "option_b": "Computer Processing Unit",
+      "option_c": "Central Program Unit",
+      "option_d": "Control Processing Unit",
+      "correct_option": "A",
+      "created": "2025-01-01T10:30:00Z",
+      "updated": "2025-01-01T10:30:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 32,
+    "fields": {
+      "exam": 1,
+      "text": "Which language is primarily used for Android app development?",
+      "option_a": "Swift",
+      "option_b": "Kotlin",
+      "option_c": "Python",
+      "option_d": "Ruby",
+      "correct_option": "B",
+      "created": "2025-01-01T10:31:00Z",
+      "updated": "2025-01-01T10:31:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 33,
+    "fields": {
+      "exam": 1,
+      "text": "What does HTTP stand for?",
+      "option_a": "HyperText Transfer Protocol",
+      "option_b": "High Transfer Text Protocol",
+      "option_c": "Hyper Transfer Tool Process",
+      "option_d": "Host Text Transfer Protocol",
+      "correct_option": "A",
+      "created": "2025-01-01T10:32:00Z",
+      "updated": "2025-01-01T10:32:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 34,
+    "fields": {
+      "exam": 1,
+      "text": "Which company developed the Python language?",
+      "option_a": "Microsoft",
+      "option_b": "Google",
+      "option_c": "Python Software Foundation",
+      "option_d": "Sun Microsystems",
+      "correct_option": "C",
+      "created": "2025-01-01T10:33:00Z",
+      "updated": "2025-01-01T10:33:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 35,
+    "fields": {
+      "exam": 1,
+      "text": "Which data structure follows FIFO?",
+      "option_a": "Stack",
+      "option_b": "Queue",
+      "option_c": "Tree",
+      "option_d": "Graph",
+      "correct_option": "B",
+      "created": "2025-01-01T10:34:00Z",
+      "updated": "2025-01-01T10:34:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 36,
+    "fields": {
+      "exam": 1,
+      "text": "How many players are there in a cricket team?",
+      "option_a": "9",
+      "option_b": "10",
+      "option_c": "11",
+      "option_d": "12",
+      "correct_option": "C",
+      "created": "2025-01-01T10:35:00Z",
+      "updated": "2025-01-01T10:35:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 37,
+    "fields": {
+      "exam": 1,
+      "text": "Which country won the FIFA World Cup 2018?",
+      "option_a": "Brazil",
+      "option_b": "Germany",
+      "option_c": "Argentina",
+      "option_d": "France",
+      "correct_option": "D",
+      "created": "2025-01-01T10:36:00Z",
+      "updated": "2025-01-01T10:36:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 38,
+    "fields": {
+      "exam": 1,
+      "text": "Which sport is known as the 'gentleman’s game'?",
+      "option_a": "Football",
+      "option_b": "Cricket",
+      "option_c": "Hockey",
+      "option_d": "Tennis",
+      "correct_option": "B",
+      "created": "2025-01-01T10:37:00Z",
+      "updated": "2025-01-01T10:37:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 39,
+    "fields": {
+      "exam": 1,
+      "text": "In which sport is the term 'love' used?",
+      "option_a": "Badminton",
+      "option_b": "Tennis",
+      "option_c": "Squash",
+      "option_d": "Table Tennis",
+      "correct_option": "B",
+      "created": "2025-01-01T10:38:00Z",
+      "updated": "2025-01-01T10:38:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 40,
+    "fields": {
+      "exam": 1,
+      "text": "Which country hosts the Wimbledon tournament?",
+      "option_a": "USA",
+      "option_b": "France",
+      "option_c": "Australia",
+      "option_d": "England",
+      "correct_option": "D",
+      "created": "2025-01-01T10:39:00Z",
+      "updated": "2025-01-01T10:39:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 41,
+    "fields": {
+      "exam": 1,
+      "text": "What is the national sport of India?",
+      "option_a": "Cricket",
+      "option_b": "Hockey",
+      "option_c": "Football",
+      "option_d": "Kabaddi",
+      "correct_option": "B",
+      "created": "2025-01-01T10:40:00Z",
+      "updated": "2025-01-01T10:40:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 42,
+    "fields": {
+      "exam": 1,
+      "text": "Which instrument measures earthquakes?",
+      "option_a": "Barometer",
+      "option_b": "Thermometer",
+      "option_c": "Seismograph",
+      "option_d": "Hygrometer",
+      "correct_option": "C",
+      "created": "2025-01-01T10:41:00Z",
+      "updated": "2025-01-01T10:41:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 43,
+    "fields": {
+      "exam": 1,
+      "text": "Who invented the telephone?",
+      "option_a": "Thomas Edison",
+      "option_b": "Alexander Graham Bell",
+      "option_c": "Nikola Tesla",
+      "option_d": "James Watt",
+      "correct_option": "B",
+      "created": "2025-01-01T10:42:00Z",
+      "updated": "2025-01-01T10:42:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 44,
+    "fields": {
+      "exam": 1,
+      "text": "Which blood group is known as the universal donor?",
+      "option_a": "A",
+      "option_b": "B",
+      "option_c": "AB",
+      "option_d": "O negative",
+      "correct_option": "D",
+      "created": "2025-01-01T10:43:00Z",
+      "updated": "2025-01-01T10:43:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 45,
+    "fields": {
+      "exam": 1,
+      "text": "Which country launched the Chandrayaan mission?",
+      "option_a": "USA",
+      "option_b": "Russia",
+      "option_c": "India",
+      "option_d": "China",
+      "correct_option": "C",
+      "created": "2025-01-01T10:44:00Z",
+      "updated": "2025-01-01T10:44:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 46,
+    "fields": {
+      "exam": 1,
+      "text": "What is the full form of RAM?",
+      "option_a": "Read Access Memory",
+      "option_b": "Random Access Memory",
+      "option_c": "Run Access Memory",
+      "option_d": "Real Access Memory",
+      "correct_option": "B",
+      "created": "2025-01-01T10:45:00Z",
+      "updated": "2025-01-01T10:45:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 47,
+    "fields": {
+      "exam": 1,
+      "text": "Which ocean lies between Africa and Australia?",
+      "option_a": "Pacific",
+      "option_b": "Atlantic",
+      "option_c": "Indian",
+      "option_d": "Arctic",
+      "correct_option": "C",
+      "created": "2025-01-01T10:46:00Z",
+      "updated": "2025-01-01T10:46:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 48,
+    "fields": {
+      "exam": 1,
+      "text": "Which sport uses a shuttlecock?",
+      "option_a": "Tennis",
+      "option_b": "Badminton",
+      "option_c": "Squash",
+      "option_d": "Table Tennis",
+      "correct_option": "B",
+      "created": "2025-01-01T10:47:00Z",
+      "updated": "2025-01-01T10:47:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 49,
+    "fields": {
+      "exam": 1,
+      "text": "Who is known as the Missile Man of India?",
+      "option_a": "Vikram Sarabhai",
+      "option_b": "A. P. J. Abdul Kalam",
+      "option_c": "Homi Bhabha",
+      "option_d": "C. V. Raman",
+      "correct_option": "B",
+      "created": "2025-01-01T10:48:00Z",
+      "updated": "2025-01-01T10:48:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 50,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the hardest natural substance?",
+      "option_a": "Gold",
+      "option_b": "Iron",
+      "option_c": "Diamond",
+      "option_d": "Silver",
+      "correct_option": "C",
+      "created": "2025-01-01T10:49:00Z",
+      "updated": "2025-01-01T10:49:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 51,
+    "fields": {
+      "exam": 1,
+      "text": "Which country is known as the Land of Rising Sun?",
+      "option_a": "China",
+      "option_b": "Japan",
+      "option_c": "Korea",
+      "option_d": "Thailand",
+      "correct_option": "B",
+      "created": "2025-01-01T10:50:00Z",
+      "updated": "2025-01-01T10:50:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 52,
+    "fields": {
+      "exam": 1,
+      "text": "What is H2O commonly known as?",
+      "option_a": "Oxygen",
+      "option_b": "Hydrogen",
+      "option_c": "Water",
+      "option_d": "Salt",
+      "correct_option": "C",
+      "created": "2025-01-01T10:51:00Z",
+      "updated": "2025-01-01T10:51:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 53,
+    "fields": {
+      "exam": 1,
+      "text": "Which continent is known as the Dark Continent?",
+      "option_a": "Asia",
+      "option_b": "Africa",
+      "option_c": "Europe",
+      "option_d": "Australia",
+      "correct_option": "B",
+      "created": "2025-01-01T10:52:00Z",
+      "updated": "2025-01-01T10:52:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 54,
+    "fields": {
+      "exam": 1,
+      "text": "Which Indian city is known as the Silicon Valley of India?",
+      "option_a": "Hyderabad",
+      "option_b": "Chennai",
+      "option_c": "Bengaluru",
+      "option_d": "Pune",
+      "correct_option": "C",
+      "created": "2025-01-01T10:53:00Z",
+      "updated": "2025-01-01T10:53:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 55,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the largest mammal?",
+      "option_a": "Elephant",
+      "option_b": "Blue Whale",
+      "option_c": "Giraffe",
+      "option_d": "Hippopotamus",
+      "correct_option": "B",
+      "created": "2025-01-01T10:54:00Z",
+      "updated": "2025-01-01T10:54:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 56,
+    "fields": {
+      "exam": 1,
+      "text": "Which sport does Lionel Messi play?",
+      "option_a": "Cricket",
+      "option_b": "Football",
+      "option_c": "Tennis",
+      "option_d": "Basketball",
+      "correct_option": "B",
+      "created": "2025-01-01T10:55:00Z",
+      "updated": "2025-01-01T10:55:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 57,
+    "fields": {
+      "exam": 1,
+      "text": "Which planet is closest to the Sun?",
+      "option_a": "Earth",
+      "option_b": "Venus",
+      "option_c": "Mercury",
+      "option_d": "Mars",
+      "correct_option": "C",
+      "created": "2025-01-01T10:56:00Z",
+      "updated": "2025-01-01T10:56:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 58,
+    "fields": {
+      "exam": 1,
+      "text": "Who invented the light bulb?",
+      "option_a": "Nikola Tesla",
+      "option_b": "Alexander Graham Bell",
+      "option_c": "James Watt",
+      "option_d": "Thomas Edison",
+      "correct_option": "D",
+      "created": "2025-01-01T10:57:00Z",
+      "updated": "2025-01-01T10:57:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 59,
+    "fields": {
+      "exam": 1,
+      "text": "Which Indian river flows westward?",
+      "option_a": "Ganga",
+      "option_b": "Yamuna",
+      "option_c": "Narmada",
+      "option_d": "Godavari",
+      "correct_option": "C",
+      "created": "2025-01-01T10:58:00Z",
+      "updated": "2025-01-01T10:58:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 60,
+    "fields": {
+      "exam": 1,
+      "text": "Which device is used to measure temperature?",
+      "option_a": "Barometer",
+      "option_b": "Thermometer",
+      "option_c": "Anemometer",
+      "option_d": "Hygrometer",
+      "correct_option": "B",
+      "created": "2025-01-01T10:59:00Z",
+      "updated": "2025-01-01T10:59:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 61,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the tallest mountain in the world?",
+      "option_a": "K2",
+      "option_b": "Kangchenjunga",
+      "option_c": "Mount Everest",
+      "option_d": "Makalu",
+      "correct_option": "C",
+      "created": "2025-01-01T11:00:00Z",
+      "updated": "2025-01-01T11:00:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 62,
+    "fields": {
+      "exam": 1,
+      "text": "Which metal is the best conductor of electricity?",
+      "option_a": "Copper",
+      "option_b": "Silver",
+      "option_c": "Gold",
+      "option_d": "Aluminium",
+      "correct_option": "B",
+      "created": "2025-01-01T11:01:00Z",
+      "updated": "2025-01-01T11:01:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 63,
+    "fields": {
+      "exam": 1,
+      "text": "Who was the first man to walk on the moon?",
+      "option_a": "Buzz Aldrin",
+      "option_b": "Yuri Gagarin",
+      "option_c": "Neil Armstrong",
+      "option_d": "Michael Collins",
+      "correct_option": "C",
+      "created": "2025-01-01T11:02:00Z",
+      "updated": "2025-01-01T11:02:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 64,
+    "fields": {
+      "exam": 1,
+      "text": "Which country hosted the Olympics 2021?",
+      "option_a": "China",
+      "option_b": "Japan",
+      "option_c": "Brazil",
+      "option_d": "UK",
+      "correct_option": "B",
+      "created": "2025-01-01T11:03:00Z",
+      "updated": "2025-01-01T11:03:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 65,
+    "fields": {
+      "exam": 1,
+      "text": "Which part of the computer stores permanent data?",
+      "option_a": "RAM",
+      "option_b": "CPU",
+      "option_c": "ROM",
+      "option_d": "Cache",
+      "correct_option": "C",
+      "created": "2025-01-01T11:04:00Z",
+      "updated": "2025-01-01T11:04:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 66,
+    "fields": {
+      "exam": 1,
+      "text": "Which Indian state has the longest coastline?",
+      "option_a": "Kerala",
+      "option_b": "Tamil Nadu",
+      "option_c": "Gujarat",
+      "option_d": "Maharashtra",
+      "correct_option": "C",
+      "created": "2025-01-01T11:05:00Z",
+      "updated": "2025-01-01T11:05:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 67,
+    "fields": {
+      "exam": 1,
+      "text": "What is the main source of energy for Earth?",
+      "option_a": "Moon",
+      "option_b": "Sun",
+      "option_c": "Wind",
+      "option_d": "Coal",
+      "correct_option": "B",
+      "created": "2025-01-01T11:06:00Z",
+      "updated": "2025-01-01T11:06:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 68,
+    "fields": {
+      "exam": 1,
+      "text": "Which Indian festival is known as the Festival of Lights?",
+      "option_a": "Holi",
+      "option_b": "Onam",
+      "option_c": "Diwali",
+      "option_d": "Eid",
+      "correct_option": "C",
+      "created": "2025-01-01T11:07:00Z",
+      "updated": "2025-01-01T11:07:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 69,
+    "fields": {
+      "exam": 1,
+      "text": "Which country invented paper?",
+      "option_a": "India",
+      "option_b": "China",
+      "option_c": "Egypt",
+      "option_d": "Greece",
+      "correct_option": "B",
+      "created": "2025-01-01T11:08:00Z",
+      "updated": "2025-01-01T11:08:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 70,
+    "fields": {
+      "exam": 1,
+      "text": "Which Indian city is known as the Pink City?",
+      "option_a": "Udaipur",
+      "option_b": "Jaipur",
+      "option_c": "Jodhpur",
+      "option_d": "Ajmer",
+      "correct_option": "B",
+      "created": "2025-01-01T11:09:00Z",
+      "updated": "2025-01-01T11:09:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 71,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the smallest planet in the solar system?",
+      "option_a": "Mars",
+      "option_b": "Venus",
+      "option_c": "Mercury",
+      "option_d": "Earth",
+      "correct_option": "C",
+      "created": "2025-01-01T11:10:00Z",
+      "updated": "2025-01-01T11:10:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 72,
+    "fields": {
+      "exam": 1,
+      "text": "Which sport is played at Wimbledon?",
+      "option_a": "Cricket",
+      "option_b": "Football",
+      "option_c": "Tennis",
+      "option_d": "Hockey",
+      "correct_option": "C",
+      "created": "2025-01-01T11:11:00Z",
+      "updated": "2025-01-01T11:11:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 73,
+    "fields": {
+      "exam": 1,
+      "text": "Which gas is essential for breathing?",
+      "option_a": "Nitrogen",
+      "option_b": "Carbon Dioxide",
+      "option_c": "Oxygen",
+      "option_d": "Helium",
+      "correct_option": "C",
+      "created": "2025-01-01T11:12:00Z",
+      "updated": "2025-01-01T11:12:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 74,
+    "fields": {
+      "exam": 1,
+      "text": "Who founded Microsoft?",
+      "option_a": "Steve Jobs",
+      "option_b": "Bill Gates",
+      "option_c": "Mark Zuckerberg",
+      "option_d": "Larry Page",
+      "correct_option": "B",
+      "created": "2025-01-01T11:13:00Z",
+      "updated": "2025-01-01T11:13:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 75,
+    "fields": {
+      "exam": 1,
+      "text": "Which country is known for the Eiffel Tower?",
+      "option_a": "Italy",
+      "option_b": "Spain",
+      "option_c": "France",
+      "option_d": "Germany",
+      "correct_option": "C",
+      "created": "2025-01-01T11:14:00Z",
+      "updated": "2025-01-01T11:14:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 76,
+    "fields": {
+      "exam": 1,
+      "text": "What is the freezing point of water?",
+      "option_a": "0°C",
+      "option_b": "32°C",
+      "option_c": "100°C",
+      "option_d": "-10°C",
+      "correct_option": "A",
+      "created": "2025-01-01T11:15:00Z",
+      "updated": "2025-01-01T11:15:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 77,
+    "fields": {
+      "exam": 1,
+      "text": "Which Indian satellite was launched for Mars exploration?",
+      "option_a": "Chandrayaan-2",
+      "option_b": "INSAT",
+      "option_c": "Mangalyaan",
+      "option_d": "GSAT",
+      "correct_option": "C",
+      "created": "2025-01-01T11:16:00Z",
+      "updated": "2025-01-01T11:16:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 78,
+    "fields": {
+      "exam": 1,
+      "text": "Which organ controls the nervous system?",
+      "option_a": "Heart",
+      "option_b": "Brain",
+      "option_c": "Lungs",
+      "option_d": "Spinal Cord",
+      "correct_option": "B",
+      "created": "2025-01-01T11:17:00Z",
+      "updated": "2025-01-01T11:17:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 79,
+    "fields": {
+      "exam": 1,
+      "text": "Which sport uses a bat and a ball?",
+      "option_a": "Football",
+      "option_b": "Cricket",
+      "option_c": "Hockey",
+      "option_d": "Basketball",
+      "correct_option": "B",
+      "created": "2025-01-01T11:18:00Z",
+      "updated": "2025-01-01T11:18:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 80,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the fastest land animal?",
+      "option_a": "Lion",
+      "option_b": "Horse",
+      "option_c": "Cheetah",
+      "option_d": "Tiger",
+      "correct_option": "C",
+      "created": "2025-01-01T11:19:00Z",
+      "updated": "2025-01-01T11:19:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 81,
+    "fields": {
+      "exam": 1,
+      "text": "Which country is famous for the Great Wall?",
+      "option_a": "India",
+      "option_b": "China",
+      "option_c": "Japan",
+      "option_d": "Korea",
+      "correct_option": "B",
+      "created": "2025-01-01T11:20:00Z",
+      "updated": "2025-01-01T11:20:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 82,
+    "fields": {
+      "exam": 1,
+      "text": "Which gas is used in balloons?",
+      "option_a": "Oxygen",
+      "option_b": "Nitrogen",
+      "option_c": "Helium",
+      "option_d": "Hydrogen",
+      "correct_option": "C",
+      "created": "2025-01-01T11:21:00Z",
+      "updated": "2025-01-01T11:21:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 83,
+    "fields": {
+      "exam": 1,
+      "text": "Which Indian state is known as God's Own Country?",
+      "option_a": "Goa",
+      "option_b": "Kerala",
+      "option_c": "Tamil Nadu",
+      "option_d": "Karnataka",
+      "correct_option": "B",
+      "created": "2025-01-01T11:22:00Z",
+      "updated": "2025-01-01T11:22:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 84,
+    "fields": {
+      "exam": 1,
+      "text": "Which device connects computers to a network?",
+      "option_a": "Printer",
+      "option_b": "Router",
+      "option_c": "Scanner",
+      "option_d": "Monitor",
+      "correct_option": "B",
+      "created": "2025-01-01T11:23:00Z",
+      "updated": "2025-01-01T11:23:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 85,
+    "fields": {
+      "exam": 1,
+      "text": "Which country won the Cricket World Cup 2011?",
+      "option_a": "Australia",
+      "option_b": "Sri Lanka",
+      "option_c": "India",
+      "option_d": "England",
+      "correct_option": "C",
+      "created": "2025-01-01T11:24:00Z",
+      "updated": "2025-01-01T11:24:00Z"
+    }
+  },
+
+  {
+    "model": "exams.question",
+    "pk": 86,
+    "fields": {
+      "exam": 1,
+      "text": "What is the currency of Japan?",
+      "option_a": "Won",
+      "option_b": "Yen",
+      "option_c": "Dollar",
+      "option_d": "Peso",
+      "correct_option": "B",
+      "created": "2025-01-01T11:25:00Z",
+      "updated": "2025-01-01T11:25:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 87,
+    "fields": {
+      "exam": 1,
+      "text": "Which part of the body helps in pumping blood?",
+      "option_a": "Brain",
+      "option_b": "Lungs",
+      "option_c": "Heart",
+      "option_d": "Kidney",
+      "correct_option": "C",
+      "created": "2025-01-01T11:26:00Z",
+      "updated": "2025-01-01T11:26:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 88,
+    "fields": {
+      "exam": 1,
+      "text": "Which is the largest continent?",
+      "option_a": "Africa",
+      "option_b": "Europe",
+      "option_c": "Asia",
+      "option_d": "Australia",
+      "correct_option": "C",
+      "created": "2025-01-01T11:27:00Z",
+      "updated": "2025-01-01T11:27:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 89,
+    "fields": {
+      "exam": 1,
+      "text": "Which programming language is known as the language of the web?",
+      "option_a": "Python",
+      "option_b": "Java",
+      "option_c": "C++",
+      "option_d": "JavaScript",
+      "correct_option": "D",
+      "created": "2025-01-01T11:28:00Z",
+      "updated": "2025-01-01T11:28:00Z"
+    }
+  },
+  {
+    "model": "exams.question",
+    "pk": 90,
+    "fields": {
+      "exam": 1,
+      "text": "Which Indian sportsperson is known as the 'Flying Sikh'?",
+      "option_a": "Milkha Singh",
+      "option_b": "P. T. Usha",
+      "option_c": "Sachin Tendulkar",
+      "option_d": "Neeraj Chopra",
+      "correct_option": "A",
+      "created": "2025-01-01T11:29:00Z",
+      "updated": "2025-01-01T11:29:00Z"
+    }
+  }
+]
