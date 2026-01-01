@@ -41,3 +41,10 @@ To populate the database with sample or default data, run:
 ```sh
 python manage.py populatedata
 ```
+
+## 📈 Load Testing (Locust)
+Edu-Exam supports high-concurrency testing using Locust.
+```sh
+locust -f locustfile.py --users 50 --spawn-rate 10
+```
+Once started, open the Locust UI: `http://127.0.0.1:8089`
