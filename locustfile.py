@@ -25,7 +25,7 @@ class ExamUser(HttpUser):
     def on_start(self):
         self._authenticate()
         self._select_exam()
-        # self._start_or_resume_exam()
+        self._start_or_resume_exam()
 
     def _authenticate(self):
         self.username = f"user_{random.randint(1, 50)}@example.com"
